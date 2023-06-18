@@ -11,8 +11,8 @@ const TopicCard = ({ topic }) => {
     const handleExploreTopic = () => navigate(`/topic/${id}`);
 
     return (
-        <div className="col-12 col-md-3 topic-card">
-            <Card style={{ width: '19rem', border: "none" }}>
+        <div className="col-12 col-md-3 topic-card gy-5 gy-md-0 mx-auto ">
+            <Card style={{ width: '19rem', border: "none", margin: "0 auto" }}>
                 <Card.Img variant="top" src={logo} className='img-fluid' />
                 <Card.Body>
                     <Card.Title className='topic-title'>{name}</Card.Title>

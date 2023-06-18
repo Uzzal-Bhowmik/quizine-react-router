@@ -32,3 +32,9 @@ a.active {
 .navlink:hover {
     color: var(--primary-color);
 }
+
+@media screen and (max-width: 688px) {
+    .navlink {
+        margin-top: 10px;
+    }
+}

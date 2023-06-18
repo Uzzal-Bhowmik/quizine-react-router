@@ -19,7 +19,7 @@ const Home = () => {
                     <p className='text-muted fw-semibold fs-6 mt-3'>Limitless Learning, Infinite Possibilities!</p>
                 </div>
 
-                <div className='row mx-auto mt-5' style={{ width: "95%" }}>
+                <div className='row mx-auto mt-5 mb-5' style={{ width: "95%" }}>
                     {
                         topics.map(topic => <TopicCard key={topic.id} topic={topic} />)
                     }

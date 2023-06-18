@@ -4,7 +4,7 @@ const QuizQuestionCard = ({ questionObj, handleShowAnswer, handleAnswerChoice })
     const { question, options, correctAnswer } = questionObj;
 
     return (
-        <div className='w-50 mx-auto pb-3 rounded-4 shadow bg-white my-5'>
+        <div className='quiz-card pb-3 rounded-4 shadow bg-white mx-auto my-5' style={{ width: "50%" }}>
 
             <div className='bg-light py-5 px-4 rounded-top-4 text-center position-relative'>
 
@@ -15,8 +15,6 @@ const QuizQuestionCard = ({ questionObj, handleShowAnswer, handleAnswerChoice })
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                 </div>
-
-
 
                 <h3>{question}</h3>
             </div>

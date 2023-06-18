@@ -10,7 +10,7 @@ import { HashLink } from 'react-router-hash-link';
 
 const Navigation = () => {
     return (
-        <Navbar bg="dark" variant='dark' expand="lg" className='navbar shadow'>
+        <Navbar bg="dark" variant='dark' expand="lg" className='navbar shadow container-fluid'>
             <Container>
                 <Navbar.Brand>
                     <Link to="/" className='d-flex justify-content-center align-items-center'>
@@ -20,7 +20,7 @@ const Navigation = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto pb-3 pb-md-0 text-center">
                         <NavLink
                             to="/"
                             className={

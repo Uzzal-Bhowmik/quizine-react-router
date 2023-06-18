@@ -3,7 +3,6 @@ import { Link, useRouteError } from "react-router-dom";
 
 export default function ErrorPage() {
     const error = useRouteError();
-    console.log(error);
 
     return (
         <div className='d-flex justify-content-center align-items-center text-center' style={{ height: "100vh" }}>

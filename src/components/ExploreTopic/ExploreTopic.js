@@ -54,7 +54,7 @@ const ExploreTopic = () => {
             <div className='quiz pt-5' >
 
                 {/* topic title */}
-                <div className="topic-name w-50 mx-auto text-center py-3 rounded-4 shadow bg-white">
+                <div className="topic-name mx-auto text-center py-3 rounded-4 shadow bg-white" style={{ width: "50%" }}>
                     <div>
                         <h1 style={{ fontFamily: "Unbounded", color: "rgb(143, 34, 221)", marginBottom: "16px" }}>{name}</h1>
                         <p className='text-muted'>Answer the trivia to enrich your knowledge on the topic!</p>

@@ -7,15 +7,15 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer>
-            <div className='footer d-flex justify-content-between align-items-center container'>
+            <div className='footer d-md-flex justify-content-between align-items-center container'>
                 <div>
-                    <div className='d-flex align-items-center'>
+                    <div className='d-flex align-items-center justify-content-center mb-3'>
                         <img src={logo} alt="" width="40px" />
                         <span style={{ fontFamily: "Unbounded", fontSize: "30px" }} className='ms-2'>quizine <span className='highlight'>.</span></span>
                     </div>
                     <p className="text-muted mt-2 ms-2" >We support programs that create advancement for people</p>
                 </div>
-                <div className='footer-links'>
+                <div className='footer-links text-center pt-2 pt-md-0'>
                     <Link to="/">Home</Link>
                     <a href="#topics">Topics</a>
                     <Link to="/stats">Statistics</Link>

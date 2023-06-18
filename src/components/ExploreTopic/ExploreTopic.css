@@ -16,3 +16,15 @@
     width: 270px;
     font-family: "Unbounded", cursive;
 }
+
+
+@media screen and (max-width: 688px) {
+    .topic-name {
+        width: 90% !important;
+    }
+
+    .correct-ans-counter {
+        position: static !important;
+        margin: 20px 26px 0 auto;
+    }
+}
