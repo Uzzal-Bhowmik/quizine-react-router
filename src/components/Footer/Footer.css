@@ -1,0 +1,28 @@
+footer {
+    background-color: #f6f7f9;
+    padding: 50px 0 10px 0;
+    font-family: "Prosto One", cursive;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.665);
+    margin-right: 1.5rem;
+    font-weight: 500;
+    font-family: "Unbounded";
+}
+
+.footer-links a:hover {
+    color: black;
+}
+
+.footer-text {
+    position: static;
+    bottom: 0;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Poppins";
+}

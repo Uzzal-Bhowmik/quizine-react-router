@@ -1,0 +1,14 @@
+.topics {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topics h1 {
+    font-family: "Unbounded", cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.topics p {
+    font-family: "Prosto One", cursive;
+}

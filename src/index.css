@@ -1,3 +1,11 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Poppins&family=Unbounded&display=swap&family=Barlow&display=swap&family=Prosto+One&display=swap');
+
+:root {
+  --primary-color: rgb(250, 35, 108);
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +18,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }

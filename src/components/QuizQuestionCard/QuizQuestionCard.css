@@ -1,0 +1,54 @@
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+
+.radio-label:hover {
+    border: 1px solid rgb(143, 34, 221);
+    color: rgb(143, 34, 221);
+}
+
+.radio-label input[type="radio"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.radio-label input[type="radio"]:hover {
+    color: #7474c8;
+}
+
+.icons {
+    width: 10%;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.icons svg {
+    width: 24px;
+    height: 30px;
+    transition: all .2s ease-out;
+    opacity: .5;
+}
+
+.icons svg:hover {
+    color: #198754;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    opacity: 1;
+}

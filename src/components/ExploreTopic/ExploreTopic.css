@@ -1,0 +1,18 @@
+.explore-topic {
+    background-size: contain;
+    height: max-content;
+    padding-bottom: 20px;
+}
+
+.quiz {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.correct-ans-counter {
+    position: absolute !important;
+    top: 235px;
+    right: 30px !important;
+    width: 270px;
+    font-family: "Unbounded", cursive;
+}
