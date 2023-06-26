@@ -1,6 +1,6 @@
 # Quizine
 
-Quizine is fun quiz solving website that lets user enrich their knowledge on different topics such as. React JS, Git, CSS, Javascript etc.
+Quizine is a fun quiz solving website that lets user enrich their knowledge on different topics such as. React JS, Git, CSS, Javascript etc.
 
 ## Usage Of Quizine
 
