@@ -5,6 +5,8 @@ import Home from './components/Home/Home';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Statistics from './components/Statistics/Statistics';
 import ExploreTopic from './components/ExploreTopic/ExploreTopic';
+import Blogs from './components/Blogs/Blogs';
+import DynamicBlog from './components/DynamicBlog/DynamicBlog';
 
 function App() {
 
@@ -27,6 +29,18 @@ function App() {
         {
           path: "/stats",
           element: <Statistics />
+        },
+        {
+          path: "/blogs",
+          loader: async () => fetch("/blogs.json"),
+          element: <Blogs />
+        },
+        {
+          path: "blog/:id",
+          loader: async ({ params }) => {
+            return params.id;
+          },
+          element: <DynamicBlog />
         }
       ]
     }

@@ -10,7 +10,7 @@ export default function ErrorPage() {
                 <h1 className='text-danger fw-bolder my-3'>Oops!</h1>
                 <p>Sorry, an unexpected error has occurred.</p>
                 <p className='fw-bold'>
-                    <i>{error.status}, {error.error.message}</i>
+                    <i>{error.status}, {error?.error?.message}</i>
                 </p>
 
 

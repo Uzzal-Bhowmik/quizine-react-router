@@ -1,0 +1,35 @@
+.blog-banner {
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: white;
+}
+
+
+.blog-banner h2 {
+    font-family: "Unbounded", cursive;
+    font-weight: bold;
+    z-index: 2;
+    word-spacing: 7px;
+}
+
+.blog-banner p {
+    font-family: "Prosto One", sans-serif;
+    z-index: 2;
+}
+
+.blog-posts {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    padding-top: 4rem;
+}

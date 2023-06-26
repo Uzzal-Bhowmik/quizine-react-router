@@ -1,0 +1,13 @@
+.dyno-blog {
+    font-family: "Poppins", sans-serif;
+}
+
+.blog-desc {
+    margin: 40px 10px 100px 10px;
+}
+
+.blog-desc p:nth-child(3) {
+    padding-bottom: 30px;
+    line-height: 35px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,31 @@
+.card {
+    font-family: "Poppins", sans-serif;
+    cursor: default !important;
+}
+
+.card-cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-family: "Unbounded" !important;
+    margin-bottom: 6px;
+}
+
+.arrow-icon {
+    display: inline-block;
+    transition: all .3s;
+    padding-left: 4px;
+}
+
+.read-more:hover~span {
+    padding-left: 8px !important;
+    transition: all .3s;
+}
+
+.read-more:hover {
+    font-weight: bold;
+    transition: all .1s;
+}
