@@ -4,7 +4,7 @@ Quizine is a fun quiz solving website that lets user enrich their knowledge on d
 
 ## Usage Of Quizine
 
-    * Users can get familiar with different topics by solving the quizzes.
+    *Users can get familiar with different topics by solving the quizzes.
 
     * The home page contains four topics from which users can choose any to solve questions of that topic.
 
